@@ -6,3 +6,26 @@ body {
 a {
   color: #00b7ff;
 }
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.form-button button{
+  width: 176px;
+  height: 75px;
+  border-radius: 15px;
+  font-size: 22px;
+  border: 4px solid darkgrey;
+  box-shadow: 5px 10px darkgray;
+}
+.form-button button:hover{
+  background-color: darkgrey;
+  box-shadow: 5px 10px grey;
+
+}
